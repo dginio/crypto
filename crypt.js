@@ -1,6 +1,7 @@
-//exemple : chars = "äzërtÿüöpqsdfghjlmwxcvbnaeyuiokAZERTYUIOPQSDFGHJKLMWXCVBN²&é"'(-è_çà)=$^ù*!:;,°+¨£%µ§/.?€~#{[|`\@]}¤<>"
-//			key = "This is secret"
-//			input = "Texte à chiffrer"
+//exemple :
+// chars = "äzërtÿüöpqsdfghjlmwxcvbnaeyuiokAZERTYUIOPQSDFGHJKLMWXCVBN²&é"'(-è_çà)=$^ù*!:;,°+¨£%µ§/.?€~#{[|`\@]}¤<>"
+// key = "This is secret"
+// input = "Texte à chiffrer"
 
 function IsNumeric(num) { return ( num.charCodeAt(0) > 47 && num.charCodeAt(0) < 58 ); }
 
